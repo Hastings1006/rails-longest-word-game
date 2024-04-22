@@ -1,0 +1,10 @@
+<% if @wrong_letters %>
+  <p>This word does not include letters not in the grid!</p>
+<%end%>
+
+<% if @not_eng %>
+  <p>This word is not english</p>
+<% end %>
+
+<p><%= @score %></p>
+<%# <% raise%> 
